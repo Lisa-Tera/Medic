@@ -1,0 +1,40 @@
+﻿@*@model Drug2.Models.DrugBasic*@
+
+@{
+    ViewData["Title"] = "Drug";
+}
+
+<br />
+<br />
+<br />
+<form asp-controller="Drug2" asp-action="Drug" method="get" >
+    <p>
+        이름 :<input type="text" name="str">
+        <input type="submit" value="검색" />
+    </p>
+</form>
+<table border="1">
+    <thead>
+        <tr align="center" height="30">
+            <th width="100">약품명</th>
+            <th width="60">전문일반 </th>
+            <th width="70"> 유효기간</th>
+            <th width="80">저장법</th>
+            <th width="100">성상</th>
+        </tr>
+    </thead>
+    <tbody >
+        @foreach (var item in ViewBag.data)
+        {
+            
+            <tr>
+                <td>@item.ITEM_NAME</td>
+                <td>@item.ETC_OTC_CODE</td>
+                <td>@item.VALID_TERM</td>
+                <td>@item.STORE</td>
+                <td>@item.PROPERTIES</td>
+            </tr>
+            
+        }
+    </tbody>
+</table>

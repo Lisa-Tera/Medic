@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drug2", "Drug2.csproj", "{647F2DBB-1C25-40A9-A8CA-6E3560E5C4EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medi", "..\Medi\Medi.csproj", "{8206B341-D44C-40B5-8021-4BDC8432B00A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{647F2DBB-1C25-40A9-A8CA-6E3560E5C4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647F2DBB-1C25-40A9-A8CA-6E3560E5C4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647F2DBB-1C25-40A9-A8CA-6E3560E5C4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647F2DBB-1C25-40A9-A8CA-6E3560E5C4EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8206B341-D44C-40B5-8021-4BDC8432B00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8206B341-D44C-40B5-8021-4BDC8432B00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8206B341-D44C-40B5-8021-4BDC8432B00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8206B341-D44C-40B5-8021-4BDC8432B00A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F820BB4-AB32-4FFE-AA16-DE852FFDE4ED}
+	EndGlobalSection
+EndGlobal

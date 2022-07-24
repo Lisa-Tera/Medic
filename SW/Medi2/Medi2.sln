@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medi2", "Medi2.csproj", "{0E1430A8-5427-4716-9A21-52D31F8C93E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medic", "..\Medic\Medic.csproj", "{7D8572B4-1E1B-4780-B525-5688716E6A25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E1430A8-5427-4716-9A21-52D31F8C93E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1430A8-5427-4716-9A21-52D31F8C93E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1430A8-5427-4716-9A21-52D31F8C93E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8572B4-1E1B-4780-B525-5688716E6A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8572B4-1E1B-4780-B525-5688716E6A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8572B4-1E1B-4780-B525-5688716E6A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8572B4-1E1B-4780-B525-5688716E6A25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AECEE339-AF0C-4361-B973-E550A1F9D22C}
+	EndGlobalSection
+EndGlobal
